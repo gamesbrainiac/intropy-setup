@@ -156,126 +156,65 @@ Intellij Idea-like styling (c) Vasily Polovnyov <vast@whiteants.net>
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="span3">
-        <ul class="nav nav-list"><li><a href="#github_flavored_markdown">GitHub Flavored Markdown</a></li><li><a href="#a_bit_of_the_github_spice">A bit of the GitHub spice</a></li><li><a href="#math_is_hard__let__39_s_go_shopping">Math is hard, let&#39;s go shopping</a></li><li><a href="#we_all_like_making_lists">We all like making lists</a></li><li><a href="#i_am_a_robot">I am a robot</a></li><li><a href="#set_in_stone">Set in stone</a></li><li><a href="#playing_the_blame_game">Playing the blame game</a></li><li><a href="#table_for_two">Table for two</a></li><li><a href="#crazy_linking_action">Crazy linking action</a></li></ul>
+        <ul class="nav nav-list"><li><a href="#welcome_to_introduction_to_python___setup">Welcome to Introduction to Python - SETUP</a></li><li><a href="#mac_os">MAC OS</a></li><li><a href="#linux">Linux</a></li><li><a href="#troubleshooting">Troubleshooting</a></li><li><a href="#windows__7__vista_and_8_">Windows (7, Vista and 8)</a></li><li><a href="#test">TEST</a></li></ul>
       </div>
       <div class="span9 main">
-        <a name="github_flavored_markdown"></a><h1>GitHub Flavored Markdown<a class="anchorlink" href="#github_flavored_markdown"></a></h1>
-<p><em>View the <a href="http://github.github.com/github-flavored-markdown/sample_content.html">source of this content</a>.</em></p>
-<p>Let&#39;s get the whole &quot;linebreak&quot; thing out of the way. The next paragraph contains two phrases separated by a single newline character:</p>
-<p>Roses are red
-Violets are blue</p>
-<p>The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:</p>
-<p>Roses are red
-Violets are blue</p>
-<p>Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.</p>
-<a name="a_bit_of_the_github_spice"></a><h2>A bit of the GitHub spice<a class="anchorlink" href="#a_bit_of_the_github_spice"></a></h2>
-<p>In addition to the changes in the previous section, certain references are auto-linked:</p>
-<ul class="list">
-<li>SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
-<li>User@SHA ref: mojombo@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
-<li>User/Project@SHA: mojombo/god@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
-<li>#Num: #1</li>
-<li>User/#Num: mojombo#1</li>
-<li>User/Project#Num: mojombo/god#1</li>
-</ul>
-<p>These are dangerous goodies though, and we need to make sure email addresses don&#39;t get mangled:</p>
-<p>My email addy is tom@github.com.</p>
-<a name="math_is_hard__let__39_s_go_shopping"></a><h2>Math is hard, let&#39;s go shopping<a class="anchorlink" href="#math_is_hard__let__39_s_go_shopping"></a></h2>
-<p>In first grade I learned that 5 &gt; 3 and 2 &lt; 7. Maybe some arrows. 1 -&gt; 2 -&gt; 3. 9 &lt;- 8 &lt;- 7.</p>
-<p>Triangles man! a^2 + b^2 = c^2</p>
-<a name="we_all_like_making_lists"></a><h2>We all like making lists<a class="anchorlink" href="#we_all_like_making_lists"></a></h2>
-<p>The above header should be an H2 tag. Now, for a list of fruits:</p>
-<ul class="list">
-<li>Red Apples</li>
-<li>Purple Grapes</li>
-<li>Green Kiwifruits</li>
-</ul>
-<p>Let&#39;s get crazy:</p>
-<ol class="list">
-<li><p>This is a list item with two paragraphs. Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-mi posuere lectus.</p>
-<p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-sit amet velit.</p>
-</li>
-<li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p>
-</li>
-</ol>
-<p>What about some code <strong>in</strong> a list? That&#39;s insane, right?</p>
-<ol class="list">
-<li><p>In Ruby you can map like this:</p>
-<pre class="hljs"><code> [<span class="hljs-string">&#39;a&#39;</span>, <span class="hljs-string">&#39;b&#39;</span>]<span class="hljs-preprocessor">.map</span> { |<span class="hljs-built_in">x</span>| <span class="hljs-built_in">x</span><span class="hljs-preprocessor">.uppercase</span> }</code></pre></li>
-<li><p>In Rails, you can do a shortcut:</p>
-<pre class="hljs"><code> [<span class="hljs-string">&#39;a&#39;</span>, <span class="hljs-string">&#39;b&#39;</span>].map(&amp;<span class="hljs-symbol">:uppercase</span>)</code></pre></li>
-</ol>
-<p>Some people seem to like definition lists</p>
-<dl>
-  <dt>Lower cost</dt>
-  <dd>The new version of this product costs significantly less than the previous one!</dd>
-  <dt>Easier to use</dt>
-  <dd>We&#39;ve changed the product so that it&#39;s much easier to use!</dd>
-</dl>
-
-<a name="i_am_a_robot"></a><h2>I am a robot<a class="anchorlink" href="#i_am_a_robot"></a></h2>
-<p>Maybe you want to print <code>robot</code> to the console 1000 times. Why not?</p>
-<pre class="hljs"><code><span class="hljs-function"><span class="hljs-keyword">def</span> </span>robot_invasion
-  puts(<span class="hljs-string">&quot;robot &quot;</span> * <span class="hljs-number">1000</span>)
-<span class="hljs-keyword">end</span></code></pre><p>You see, that was formatted as code because it&#39;s been indented by four spaces.</p>
-<p>How about we throw some angle braces and ampersands in there?</p>
-<pre class="hljs"><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-type">class</span>=<span class="hljs-string">&quot;footer&quot;</span>&gt;
-    &amp;<span class="hljs-keyword">copy</span>; <span class="hljs-number">2004</span> Foo Corporation
-&lt;/<span class="hljs-keyword">div</span>&gt;</code></pre><p>CSV:</p>
-<pre class="hljs"><code>Year,Make,Model,<span class="hljs-keyword">Length</span>
-<span class="hljs-number">2</span>/<span class="hljs-number">5</span>/<span class="hljs-number">08</span>,Ford,E350,<span class="hljs-number">2.34</span>
-<span class="hljs-number">1</span>/<span class="hljs-number">2</span>/<span class="hljs-number">06</span>,Mercury,Cougar,<span class="hljs-number">2.38</span></code></pre><a name="set_in_stone"></a><h2>Set in stone<a class="anchorlink" href="#set_in_stone"></a></h2>
-<p>Preformatted blocks are useful for ASCII art:</p>
-<pre>
-             ,-.
-    ,     ,-.   ,-.
-   / \   (   )-(   )
-   \ |  ,.>-(   )-<
-    \|,' (   )-(   )
-     Y ___`-'   `-'
-     |/__/   `-'
-     |
-     |
-     |    -hrr-
-  ___|_____________
-</pre>
-
-<a name="playing_the_blame_game"></a><h2>Playing the blame game<a class="anchorlink" href="#playing_the_blame_game"></a></h2>
-<p>If you need to blame someone, the best way to do so is by quoting them:</p>
-<blockquote>
-<p>I, at any rate, am convinced that He does not throw dice.</p>
-</blockquote>
-<p>Or perhaps someone a little less eloquent:</p>
-<blockquote>
-<p>I wish you&#39;d have given me this written question ahead of time so I
-could plan for it... I&#39;m sure something will pop into my head here in
-the midst of this press conference, with all the pressure of trying to
-come up with answer, but it hadn&#39;t yet...</p>
-<p>I don&#39;t want to sound like
-I have made no mistakes. I&#39;m confident I have. I just haven&#39;t - you
-just put me under the spot here, and maybe I&#39;m not as quick on my feet
-as I should be in coming up with one.</p>
-</blockquote>
-<a name="table_for_two"></a><h2>Table for two<a class="anchorlink" href="#table_for_two"></a></h2>
-<table>
-  <tr>
-    <th>ID</th><th>Name</th><th>Rank</th>
-  </tr>
-  <tr>
-    <td>1</td><td>Tom Preston-Werner</td><td>Awesome</td>
-  </tr>
-  <tr>
-    <td>2</td><td>Albert Einstein</td><td>Nearly as awesome</td>
-  </tr>
-</table>
-
-<a name="crazy_linking_action"></a><h2>Crazy linking action<a class="anchorlink" href="#crazy_linking_action"></a></h2>
-<p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from
-<a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
+        <a name="welcome_to_introduction_to_python___setup"></a><h1>Welcome to Introduction to Python - SETUP<a class="anchorlink" href="#welcome_to_introduction_to_python___setup"></a></h1>
+<p><strong>by Quazi Nafiul Islam</strong></p>
+<p><strong><code>@gamesbrainiac</code> on Twitter</strong></p>
+<hr>
+<p>This document provides instructions for setting up your Python environment for your respective Operating System. If you need help regarding this, please send me a tweet <code>@gamesbrainiac</code> on twitter. However, before doing so, please read <a href="https://github.com/yyuu/pyenv/wiki/Common-build-problems">this article</a>.</p>
+<hr>
+<a name="mac_os"></a><h2>MAC OS<a class="anchorlink" href="#mac_os"></a></h2>
+<p>Mac already has Python installed, but its the wrong version. However, it is not the correct version. We are going to be using the latest version of the language, <code>3.4.1</code>. So, we are going to use a special tool called <code>pyenv</code>. We can install it using Homebrew, which is a package manager for MAC OS. If you do not have any other package manager installed, namely Finks or Macports, then please install Homebrew by pasting the following in the Terminal and hitting <strong>ENTER</strong>:</p>
+<pre class="hljs"><code>ruby <span class="hljs-operator">-e</span> <span class="hljs-string">&quot;<span class="hljs-variable">$(curl -fsSL <a href="https://raw.github.com/Homebrew/homebrew/go/install">https://raw.github.com/Homebrew/homebrew/go/install</a>)</span>&quot;</span></code></pre><p>Now, restart your terminal, and type in the following:</p>
+<pre class="hljs"><code>brew <span class="hljs-keyword">install</span> pyenv</code></pre><p>Once that is done, just type the following into your terminal:</p>
+<pre class="hljs"><code><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;eval \&quot;<span class="hljs-variable">$(pyenv init -)</span>\&quot;&quot;</span> &gt;&gt; ~/.bashrc</code></pre><p><strong><em>Note, that if you use zsh, then .zshrc</em></strong></p>
+<p>Restart your terminal and now, you should be able to get <code>pyenv</code> available as one of your Terminal commands. Then simply install the version of Python that we need (this might take quite some time):</p>
+<pre class="hljs"><code>pyenv <span class="hljs-keyword">install</span> <span class="hljs-number">3.4</span>.<span class="hljs-number">1</span></code></pre><p>After doing this, set your global python to <code>3.4.1</code> by doing the following:</p>
+<pre class="hljs"><code>pyenv <span class="hljs-keyword">global</span> <span class="hljs-number">3.4</span><span class="hljs-number">.1</span></code></pre><p>Now you&#39;re all set.</p>
+<h3>Installing <code>bpython</code></h3>
+<p><code>pyenv</code> takes care of a lot of the problems associated with managing python installations. You can easily install packages for a particular version of python with ease. All you have to do now is:</p>
+<pre class="hljs"><code>pip <span class="hljs-keyword">install</span> bpython</code></pre><p>And then:</p>
+<pre class="hljs"><code>pip <span class="hljs-keyword">install</span> bpython-curtsies</code></pre><p>And then:</p>
+<pre class="hljs"><code>pip <span class="hljs-keyword">install</span> bpython-urwid</code></pre><p>After that is done, you can invoke your special interpreter, <code>bpython</code> using <code>bpython</code> in your command line. This is a screen shot of what it should look like (<em>your colorscheme might be different, but the screen shot should look familiar</em>):</p>
+<p class="img-container"><img src="assets/pics/bpython.png" alt="bpython"></p>
+<hr>
+<a name="linux"></a><h2>Linux<a class="anchorlink" href="#linux"></a></h2>
+<p>In order to get our software running, we will need a couple of things, so just paste this into your Terminal and hit <strong>ENTER</strong> (this might take some time):</p>
+<pre class="hljs"><code>sudo apt<span class="hljs-attribute">-get</span> install <span class="hljs-attribute">-y</span> make build<span class="hljs-attribute">-essential</span> libssl<span class="hljs-attribute">-dev</span> zlib1g<span class="hljs-attribute">-dev</span> libbz2<span class="hljs-attribute">-dev</span> <span class="hljs-subst">\</span>
+libreadline<span class="hljs-attribute">-dev</span> libsqlite3<span class="hljs-attribute">-dev</span> wget curl llvm</code></pre><p>If you&#39;re using Redhat/Fedora:</p>
+<pre class="hljs"><code>yum install zlib<span class="hljs-attribute">-devel</span> bzip2 bzip2<span class="hljs-attribute">-devel</span> readline<span class="hljs-attribute">-devel</span> sqlite sqlite<span class="hljs-attribute">-devel</span></code></pre><p>Since we&#39;re using <code>sudo</code>, the Terminal will prompt you for your password.</p>
+<p>You will need <code>pyenv</code> because most distributions of Linux (be it Fedora or Debian/Ubuntu or Arch) come with their own version of Python. In short you do not want to mess with that installation of Python since <em>a lot</em> of your applications depends on it functioning properly.</p>
+<p>Also, it might not be the right version, in most cases Python 2 is installed. So, we will install <code>pyenv</code>using the following script:</p>
+<pre class="hljs"><code>curl -<span class="hljs-constant">L</span> <span class="hljs-symbol">https:</span>/<span class="hljs-regexp">/raw.githubusercontent.com/yyuu</span><span class="hljs-regexp">/pyenv-installer/master</span><span class="hljs-regexp">/bin/pyenv</span>-installer | bash</code></pre><p>This should install <code>pyenv</code> for you. Now just append the following lines to your <code>~/.bashrc</code> or if you use <code>zsh</code> your <code>~/.zshrc</code>:</p>
+<pre class="hljs"><code><span class="hljs-keyword">export</span> PATH=<span class="hljs-string">&quot;<span class="hljs-variable">$HOME</span>/.pyenv/bin:<span class="hljs-variable">$PATH</span>&quot;</span>
+<span class="hljs-built_in">eval</span> <span class="hljs-string">&quot;<span class="hljs-variable">$(pyenv init -)</span>&quot;</span></code></pre><p>Now that <code>pyenv</code> is installed, lets install the latest version of python (this might take quite some time):</p>
+<pre class="hljs"><code>pyenv <span class="hljs-keyword">install</span> <span class="hljs-number">3.4</span>.<span class="hljs-number">1</span></code></pre><p>Now, all you have to do is set Python <code>3.4.1</code> as your default interpreter:</p>
+<pre class="hljs"><code>pyenv <span class="hljs-keyword">global</span> <span class="hljs-number">3.4</span><span class="hljs-number">.1</span></code></pre><h3>Installing <code>bpython</code></h3>
+<pre class="hljs"><code>pip <span class="hljs-keyword">install</span> bpython</code></pre><p>And then:</p>
+<pre class="hljs"><code>pip <span class="hljs-keyword">install</span> bpython-curtsies</code></pre><p>And then:</p>
+<pre class="hljs"><code>pip <span class="hljs-keyword">install</span> bpython-urwid</code></pre><p>If the above ran without a hitch, then you&#39;re all set. Just restart your Terminal, and now you can open up bpython typing in <code>bpython</code> in the Terminal.</p>
+<a name="troubleshooting"></a><h3>Troubleshooting<a class="anchorlink" href="#troubleshooting"></a></h3>
+<p>Linux distros have a lot of platform specific problems. So, if things don&#39;t work out for you, you are going to have to use the bundled python that comes with your distribution. You can still use <code>pip</code> to do a <code>pip install bpython</code>, so make sure you do that.</p>
+<a name="windows__7__vista_and_8_"></a><h2>Windows (7, Vista and 8)<a class="anchorlink" href="#windows__7__vista_and_8_"></a></h2>
+<p>If you already have a version of Python installed, and its <em>not</em> Python 3, then you&#39;re in trouble. But before addressing that problem, we will first need to install the latest version of Python.</p>
+<p>What you need to determine <em>first</em> is what architecture your OS runs on, whether its <code>32bit or x86</code> or <code>64bit or x64</code>. Here are the steps:</p>
+<p class="img-container"><img src="assets/pics/win_2.png" alt="explorer_click"></p>
+<p class="img-container"><img src="assets/pics/win_3.png" alt="right_click"></p>
+<p class="img-container"><img src="assets/pics/win_1.png" alt="info_arch"></p>
+<p>If the highlighted region says <code>32</code> then use <a href="https://www.python.org/ftp/python/3.4.1/python-3.4.1.msi">this</a> installer. Otherwise, use <a href="https://www.python.org/ftp/python/3.4.1/python-3.4.1.amd64.msi">this</a> installer for <code>64</code> bit.</p>
+<p>If you have installed things correctly, then you should be able to see a python prompt when you run <code>python</code> in the command line:</p>
+<p class="img-container"><img src="assets/pics/win_4.png" alt="getting_cmd"></p>
+<p class="img-container"><img src="assets/pics/win_5.png" alt="python_win"></p>
+<h3>Installing <code>bpython</code></h3>
+<p>This is where things become problematic for people who have <em>another</em> version of Python installed. If you don&#39;t have another version of python installed, don&#39;t worry about anything. So, firstly in order to install bpython, you will need to install a library called <code>curses</code>, from <a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#curses">this</a>:</p>
+<p class="img-container"><img src="assets/pics/win_6.png" alt="curses_install_win"></p>
+<p>Now all you have to do is go into your command prompt, and install <code>bpython</code>:</p>
+<pre class="hljs"><code>pip <span class="hljs-keyword">install</span> bpython</code></pre><p>However, if you do have another version, then you are going to have to change your directory to <code>C:\Python34\Scripts</code>, and then run:</p>
+<pre class="hljs"><code>pip.exe <span class="hljs-keyword">install</span> bpython</code></pre><p>Once that is done, stay in that directory and invoke <code>bpython.exe</code> from the command line.</p>
+<a name="test"></a><h1>TEST<a class="anchorlink" href="#test"></a></h1>
+<p>Open up your Terminal/CMD, and type in <code>python</code>. Then type in <code>import this</code>, hit <strong>ENTER</strong>. Which line do you like the best and why? Reply to gamesbrainiac@gmail.com, with your <strong>name</strong> and <strong>ID</strong>.</p>
 
       </div>
     </div>
